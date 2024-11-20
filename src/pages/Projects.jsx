@@ -1,7 +1,9 @@
-export default function Home(props) {
+import Menager from "../components/projectmenager";
+
+export default function Projects(props) {
     return (
         <div>
-            <h1 class="font-mono text-2xl">Projects</h1>
+            <Menager/>
         </div>
     );
 }
