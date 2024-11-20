@@ -1,6 +1,8 @@
 import 'flowbite';
 import { HashRouter, Route } from "@solidjs/router";
 
+import RegisterForm from './pages/Register';
+import LoginForm from './pages/Login';
 import Home from "./pages/Home";
 import Projects from "./pages/Projects"
 import About from './pages/About';
